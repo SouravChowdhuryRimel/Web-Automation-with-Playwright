@@ -1,0 +1,24 @@
+{
+  "name": "playwright-project-sourav",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "playwright-test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/register": "^7.25.9",
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.50.1"
+  }
+}

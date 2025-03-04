@@ -1,0 +1,710 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-configuration",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify The Configuration",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5028734556,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/sourav-lnx/final playwrite/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Go to configuration",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Click on email configuration",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Write the email name",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Setup the email configuration",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-subscription",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify the Subscription",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5009229979,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/sourav-lnx/final playwrite/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Go to configuration for email subscription",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Click on email subscription",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Click on leave application",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-module",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify the Module",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5003953662,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/sourav-lnx/final playwrite/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Go configuration for module",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Click on module",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:101"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Change mobile configuration",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:108"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Setup the Module",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:114"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests/features/Configuration.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-the-organization-button-&-and-check-info",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify The Organization Button & and Check Info",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5006980455,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/sourav-lnx/final playwrite/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Go to organization",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:124"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Check organization info",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:132"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests/features/Organization.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-orangehrm-end-to-end;verify-admin-&-find-the-admin-name-in-admin-panel",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify admin & find the admin name in admin panel",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Browser and Visit Website",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5009673707,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/sourav-lnx/final playwrite/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the user login with valid username & password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click The Login Button with Valid Username & Password",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "open admin panel",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Enter the admin name searching",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Now search the admin",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "tests/stepDefinitions/stepDefinitions.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-orangehrm-end-to-end",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open OrangeHRM End to End",
+    "tags": [],
+    "uri": "tests/features/admin.feature"
+  }
+]
